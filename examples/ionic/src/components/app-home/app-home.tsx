@@ -10,7 +10,7 @@ import {
     PLAlert,
     PLStatus,
     PLDeviceUtils,
-} from "@prismadelabs/prismaidui"
+} from "@soulmade/prismaidui"
 import {
     PrismaSDK,
     DecoderResponseSuccess,
@@ -22,7 +22,7 @@ import {
     UsabilityResponse,
     ConnectivityResponse,
     ConnectivityStatus,
-} from "@prismadelabs/prismaid"
+} from "@soulmade/prismaid"
 
 import { take } from "rxjs/operators"
 import { TutorialContainer } from "../../Classes/TutorialContainer"
@@ -32,7 +32,7 @@ import { TutorialContainer } from "../../Classes/TutorialContainer"
     styleUrl: "app-home.css",
 })
 export class AppHome {
-    private static apiKey = "SCvL5XDWme6pOy0Cbi6UN4WBGJSkEboM9y0fXo7T"
+    private static apiKey = "SEhn5LQot06xtF8W05sD67KfSwIfTpiU4ssAzaMc"
 
     @Prop() private sdkUI: PrismaUISDK
 

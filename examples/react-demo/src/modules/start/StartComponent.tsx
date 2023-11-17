@@ -33,7 +33,7 @@ function StartComponent() {
         </Button>
         </div>
         <a
-          href="https://prismade.com/contact/"
+          href="https://soulmade-origins.com/contact/"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center w-full px-3 py-3 mt-2 text-lg font-medium text-center rounded-md text-prismade-blue"

@@ -1,5 +1,5 @@
 import { Store } from "pullstate";
-import { ConnectivityStatus } from "@prismadelabs/prismaid";
+import { ConnectivityStatus } from "@soulmade/prismaid";
 import i18next from "../../i18n";
 
 export type SwipeResult = {

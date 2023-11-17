@@ -1,4 +1,4 @@
-import { HelpScreenButtonType } from "@prismadelabs/prismaid/dist/model/HelpScreen";
+import { HelpScreenButtonType } from "@soulmade/prismaid/dist/model/HelpScreen";
 
 export enum GAEventType {
   // invalid app call

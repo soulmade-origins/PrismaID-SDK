@@ -1,5 +1,5 @@
 import { Component, Prop } from "@stencil/core"
-import { PrismaUISDK, PLStage, PLAsset, PLSprite, PLSpriteAlignment, PLDeviceUtils } from "@prismadelabs/prismaidui"
+import { PrismaUISDK, PLStage, PLAsset, PLSprite, PLSpriteAlignment, PLDeviceUtils } from "@soulmade/prismaidui"
 import { take } from "rxjs/operators"
 
 @Component({
@@ -274,14 +274,14 @@ export class AppVerify {
 
         if (iOS) {
             const a = document.createElement("a")
-            a.setAttribute("href", "https://www.prismade.com")
+            a.setAttribute("href", "https://www.soulmade-origins.com")
             a.setAttribute("target", "_blank")
 
             const dispatch = document.createEvent("HTMLEvents")
             dispatch.initEvent("click", true, true)
             a.dispatchEvent(dispatch)
         } else {
-            window.open("https://www.prismade.com")
+            window.open("https://www.soulmade-origins.com")
         }
     }
 

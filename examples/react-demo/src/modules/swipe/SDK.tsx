@@ -1,4 +1,4 @@
-import { PrismaSDK } from "@prismadelabs/prismaid";
+import { PrismaSDK } from "@soulmade/prismaid";
 
 class SDKSingleton {
   private static instance: SDKSingleton;
@@ -9,8 +9,8 @@ class SDKSingleton {
       throw new Error("Error - use SDKSingleton.getInstance()");
     }
     this.sdk = new PrismaSDK(
-      "SCvL5XDWme6pOy0Cbi6UN4WBGJSkEboM9y0fXo7T",
-      "https://api.prismade.net/prismaid"
+      "SEhn5LQot06xtF8W05sD67KfSwIfTpiU4ssAzaMc",
+      "https://api.soulmade-origins.net/prismaid"
     );
     this.sdk.setTwoFingerHoldingMode(true);
   }

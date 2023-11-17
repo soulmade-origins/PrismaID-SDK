@@ -91,7 +91,7 @@ function Failure(props: Props) {
               {t("failure:button1")}
             </Button>
             <a
-              href="https://www.prismade.com"
+              href="https://www.soulmade-origins.com"
               className="inline-flex items-center justify-center w-full px-3 py-3 text-lg font-medium text-center bg-gray-200 rounded-md text-prismade-blue"
             >
               {t("failure:button2")}

@@ -1,4 +1,4 @@
-import { ConnectivityStatus } from "@prismadelabs/prismaid";
+import { ConnectivityStatus } from "@soulmade/prismaid";
 import i18next from "../i18n";
 import { useEffect } from "react";
 import { SwipeData } from "../modules/swipe/SwipeData";

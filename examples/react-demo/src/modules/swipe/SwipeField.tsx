@@ -1,5 +1,5 @@
 import { Transition } from "@headlessui/react";
-import { ConnectivityResponse, ConnectivityStatus, PrismaSDK } from "@prismadelabs/prismaid";
+import { ConnectivityResponse, ConnectivityStatus, PrismaSDK } from "@soulmade/prismaid";
 import React, { useEffect, useRef, useState } from "react";
 import { Component } from "react";
 import PositionedScaledImage from "../common/components/PositionedScaledImage";

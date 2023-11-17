@@ -1,4 +1,4 @@
-import { ConnectivityStatus } from "@prismadelabs/prismaid";
+import { ConnectivityStatus } from "@soulmade/prismaid";
 import React, { useEffect, useState } from "react";
 import { Wifi, WifiOff } from "react-feather";
 import { SwipeData } from "./SwipeData";

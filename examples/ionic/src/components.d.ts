@@ -11,7 +11,7 @@ import '@ionic/core';
 import 'ionicons';
 import {
   PrismaUISDK,
-} from '@prismadelabs/prismaidui';
+} from '@soulmade/prismaidui';
 
 
 export namespace Components {

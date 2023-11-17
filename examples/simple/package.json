@@ -1,8 +1,8 @@
 {
   "name": "prismaid_sdk_demo_simple",
   "version": "1.1.0",
-  "author": "Prismade Labs GmbH",
-  "homepage": "http://www.prismade.com",
+  "author": "Soulmade Origins GmbH",
+  "homepage": "http://www.soulmade-origins.com",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@prismadelabs/prismaid": "^1.2.8",
+    "@soulmade/prismaid": "^1.2.8",
     "browserify": "^16.5.0"
   },
   "devDependencies": {},

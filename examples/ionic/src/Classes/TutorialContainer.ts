@@ -1,4 +1,4 @@
-import { PrismaUISDK, PLSpriteAlignment, PLContainer, PLButton, PLScrollContainer, PLPageControl, PLUpdateResponse } from "@prismadelabs/prismaidui"
+import { PrismaUISDK, PLSpriteAlignment, PLContainer, PLButton, PLScrollContainer, PLPageControl, PLUpdateResponse } from "@soulmade/prismaidui"
 import { TutorialScreen1 } from "./TutorialScreen1"
 import { TutorialScreen2 } from "./TutorialScreen2"
 import { TutorialScreen3 } from "./TutorialScreen3"

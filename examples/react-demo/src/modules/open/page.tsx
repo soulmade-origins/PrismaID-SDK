@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getScaleFactor } from "../../helpers/scale";
-import { PrismaSDK, UsabilityResponse } from "@prismadelabs/prismaid";
+import { PrismaSDK, UsabilityResponse } from "@soulmade/prismaid";
 import { Navigate } from "react-router-dom";
 import { AppData } from "./AppData";
 import { SwipeData } from "../swipe/SwipeData";

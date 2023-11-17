@@ -1,19 +1,19 @@
 # PrismaID Web SDK
 
-![Version](https://img.shields.io/npm/v/@prismadelabs/prismaid.svg) ![Size](https://img.shields.io/bundlephobia/min/@prismadelabs/prismaid.svg) ![Types](https://img.shields.io/npm/types/@prismadelabs/prismaid.svg)
+![Version](https://img.shields.io/npm/v/@soulmade/prismaid.svg) ![Size](https://img.shields.io/bundlephobia/min/@soulmade/prismaid.svg) ![Types](https://img.shields.io/npm/types/@soulmade/prismaid.svg)
 
 ## Overview
 
-The PrismaID Web SDK is intended to be used in a web application and collect signals created by a PrismaID tag. The PrismaID Web SDK will internally talk to the Prismade Decoder Backend and decode that signal. The result is sent back to the application through a callback. In addition to information related to the decoded data, there are events for user interaction and potential hints to improve reading results.
+The PrismaID Web SDK is intended to be used in a web application and collect signals created by a PrismaID tag. The PrismaID Web SDK will internally talk to the Soulmade Decoder Backend and decode that signal. The result is sent back to the application through a callback. In addition to information related to the decoded data, there are events for user interaction and potential hints to improve reading results.
 
 ## Authentication
 
-To use this SDK, you need a valid API-Key. For testing purposes, you can use the key `SCvL5XDWme6pOy0Cbi6UN4WBGJSkEboM9y0fXo7T` which is limited to detection of our demo card set. See www.prismade.com for additional information.
+To use this SDK, you need a valid API-Key. For testing purposes, you can use the key `SEhn5LQot06xtF8W05sD67KfSwIfTpiU4ssAzaMc` which is limited to detection of our demo card set. See www.soulmade-origins.com for additional information.
 
 ## Install
 
 ```bash
-npm install @prismadelabs/prismaid
+npm install @soulmade/prismaid
 ```
 
 ## Usage
@@ -62,7 +62,7 @@ It is assumed that one is experienced to create a web application, so we will no
 ```javascript
 # main.js
 
-const pl = require("@prismadelabs/prismaid")
+const pl = require("@soulmade/prismaid")
 
 const canvas = document.getElementById("prismasdk")
 canvas.width = window.innerWidth - 20
@@ -141,7 +141,7 @@ It is assumed that one is experienced with Ionic applications, so we will not go
 import { Component, ElementRef, ViewChild } from "@angular/core"
 import { NavController } from "ionic-angular"
 
-import { CodeType, DecoderResponseError, DecoderResponseSuccess, HintResponse, InitialisationResponse, InteractionResponse, PrismaSDK, ProgressResponse, SwipeDirection, SwipingGesture } from "@prismadelabs/prismaid"
+import { CodeType, DecoderResponseError, DecoderResponseSuccess, HintResponse, InitialisationResponse, InteractionResponse, PrismaSDK, ProgressResponse, SwipeDirection, SwipingGesture } from "@soulmade/prismaid"
 
 @Component({
     selector: "page-home",
@@ -212,7 +212,7 @@ export class HomePage {
 It is assumed that one is experienced with React applications, so we will not go into detail here. [Learn more](https://reactjs.org/tutorial/tutorial.html)
 
 ```typescript SDK.tsx
-import { PrismaSDK } from "@prismadelabs/prismaid";
+import { PrismaSDK } from "@soulmade/prismaid";
 
 class SDKSingleton {
   private static instance: SDKSingleton;
@@ -235,7 +235,7 @@ export default SDKSingleton;
 ```
 
 ```typescript index.tsx
-import { ConnectivityResponse, UsabilityResponse } from "@prismadelabs/prismaid";
+import { ConnectivityResponse, UsabilityResponse } from "@soulmade/prismaid";
 import { useEffect, useRef, useState } from "react";
 import SDKSingleton from "SDK";
 
@@ -330,10 +330,10 @@ public isFirstStart: boolean
 This property tells you if the application was started for the first time on this device/browser (determined using cookie).
 
 ```typescript
-constructor(APIKey: string, serverURL: string = "https://api.prismade.net/prismaid")
+constructor(APIKey: string, serverURL: string = "https://api.soulmade-origins.net/prismaid")
 ```
 
-The `APIKey` identifies your application towards the server. `serverURL` is a optional parameter used to override the API baseURL of the SDK. You can use `https://api-dev.prismade.net/prismaid` to connect to the development environment. However, you will need a different `APIKey` there.
+The `APIKey` identifies your application towards the server. `serverURL` is a optional parameter used to override the API baseURL of the SDK. You can use `https://api-dev.soulmade-origins.net/prismaid` to connect to the development environment. However, you will need a different `APIKey` there.
 
 ```typescript
 function pause()
@@ -432,7 +432,7 @@ The sdk sets this to true if it detects a display zoom setting enabled on the sm
 
 ### TutorialResponse
 
-Use this response to initialize [PrismaID-Tutorial](https://github.com/PrismadeLabs/PrismaID-Tutorial).
+Use this response to initialize [PrismaID-Tutorial](https://github.com/soulmade-origins/PrismaID-Tutorial).
 
 ```typescript
 public ppi: number

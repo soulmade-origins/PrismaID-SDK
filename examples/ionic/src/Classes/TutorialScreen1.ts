@@ -1,4 +1,4 @@
-import { PLContainer, PrismaUISDK, PLSpriteAlignment } from "@prismadelabs/prismaidui"
+import { PLContainer, PrismaUISDK, PLSpriteAlignment } from "@soulmade/prismaidui"
 
 // TODO: create universal tutorial screen
 

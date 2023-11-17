@@ -1,10 +1,10 @@
-const pl = require("@prismadelabs/prismaid")
+const pl = require("@soulmade/prismaid")
 
 const canvas = document.getElementById("prismasdk")
 canvas.width = window.innerWidth - 20
 canvas.height = window.innerHeight - 20
 
-const sdk = new pl.PrismaSDK("SCvL5XDWme6pOy0Cbi6UN4WBGJSkEboM9y0fXo7T")  
+const sdk = new pl.PrismaSDK("SEhn5LQot06xtF8W05sD67KfSwIfTpiU4ssAzaMc")  
 const version = "Prisma SDK version " + pl.PrismaSDK.version()
 
 const ctx = canvas.getContext("2d")

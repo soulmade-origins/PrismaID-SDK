@@ -1,5 +1,5 @@
 import { Component, Method } from "@stencil/core"
-import { PrismaUISDK, PLStage, PLAsset, PLSpriteAlignment, PLLoaderProgressResponse } from "@prismadelabs/prismaidui"
+import { PrismaUISDK, PLStage, PLAsset, PLSpriteAlignment, PLLoaderProgressResponse } from "@soulmade/prismaidui"
 import { take } from "rxjs/operators"
 import { Timeline } from "createjs-module"
 import { Cookie } from '../../Classes/cookie';

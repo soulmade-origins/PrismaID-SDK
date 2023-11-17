@@ -1,4 +1,4 @@
-import { PLContainer, PrismaUISDK, PLSpriteAlignment } from "@prismadelabs/prismaidui"
+import { PLContainer, PrismaUISDK, PLSpriteAlignment } from "@soulmade/prismaidui"
 
 export class TutorialScreen3 extends PLContainer {
     constructor(public sdkUI: PrismaUISDK, private onCloseCallBack: () => void) {
